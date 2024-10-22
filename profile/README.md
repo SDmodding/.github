@@ -1,15 +1,25 @@
 ## Info
-This github organization is based around modding: [Sleeping Dogs: Definitive Edition](https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/).
+This GitHub organization is based around modding - [Sleeping Dogs: Definitive Edition](https://store.steampowered.com/app/307690/Sleeping_Dogs_Definitive_Edition/).
 
-If you reading this based on some link reference or just trying to mod the game while using SDK provided at our organization, you will require to download this executable so it's compatible with the SDK (Mod you downloading): [sdhdship.exe (Steam)](https://mega.nz/file/fK5SWARD#1fAWkxAHaKCIMDaJ5XAQKvjs6gK4RCQo5ZlvvtHWtVw).
-
-If you're using GOG Version of the game you will need also this: [SteamAPI Offline](https://github.com/SDmodding/SteamAPI_Offline/releases/latest/download/Release.rar).
+> [!TIP]
+> - Compatibility game executable: [sdhdship.exe (Steam)](https://mega.nz/file/fK5SWARD#1fAWkxAHaKCIMDaJ5XAQKvjs6gK4RCQo5ZlvvtHWtVw)
+> - Non-Steam Patch (GOG Version): [SteamAPI Offline](https://github.com/SDmodding/SteamAPI_Offline/releases/latest/download/Release.rar)
+> - Debug Symbols (PDB): [Download](https://mega.nz/file/aThlWBSB#7hG3yh6G5hUjX2Dy-1Kqjqwq9gSAREJJeWqyeS1K_m8)
 
 ## Modding
 If you're interested in modding the game yourself, we provide enough repositories at this organization that will give you enough information to do mods by yourself.
 
-The main repository you should check out is the: [SDK](https://github.com/SDmodding/SDK).
-
-If you know how to reverse and use assembly debugger you can get yourself: [PDB](https://mega.nz/file/aThlWBSB#7hG3yh6G5hUjX2Dy-1Kqjqwq9gSAREJJeWqyeS1K_m8), this PDB has been in first steam version release and contain every single information about functions & variables names, structs, etc... 
-
-If you don't know how to begin to work with SDK or anything there is [Base Project](https://github.com/SDmodding/SDK-Base) that contain basic example of hooking render, game function.
+- Modifying game files:
+  - **This is still kind of tedious thing to do since there are not an appropriate tools to handle this easily so bare in mind while trying to do anything.** 
+  - Here is list of tools:
+    - [BIG Unpacker](https://mega.nz/file/CeJhwIaZ#gL0Byx7utvwSNVdVdn49319_2RPu-5_PzkL4_F_xPDY)
+    - [Ultimate Texture Tool](https://github.com/sneakyevil/SD-UltimateTexTool)
+    - [ModelScriber](https://github.com/SDmodding/ModelScriber)
+- Writing own plugins/mods:
+  - You will need to have knowledge of C/C++ and take some time to understand how the game engine works.
+  - We provide repository that is essentially [SDK "dev-kit"](https://github.com/SDmodding/SDK) for the game itself.
+  - You will essentially need to use reverse-engineering tool like Ghidra or IDA for finding desired hooks to run/add code to the game.
+  - Here you can find base project made especially for using the SDK if you don't know how to begin with: [Base Project](https://github.com/SDmodding/SDK-Base).
+- Writing own tools:
+  - If you're trying to write own tool, we recommend to use [TheoryEngine](https://github.com/SDmodding/TheoryEngine), which is essentially re-implementation of the game engine.
+  - The [ModelScriber](https://github.com/SDmodding/ModelScriber) is based on it and could be useful to understand how the file structure even works in general.
