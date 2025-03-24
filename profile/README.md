@@ -19,7 +19,6 @@ If you're interested in modding the game yourself, we provide enough repositorie
   - You will need to have knowledge of C/C++ and take some time to understand how the game engine works.
   - We provide repository that is essentially [SDK "dev-kit"](https://github.com/SDmodding/SDK) for the game itself.
   - You will essentially need to use reverse-engineering tool like Ghidra or IDA for finding desired hooks to run/add code to the game.
-  - Here you can find base project made especially for using the SDK if you don't know how to begin with: [Base Project](https://github.com/SDmodding/SDK-Base).
 - Writing own tools:
   - If you're trying to write own tool, we recommend to use [TheoryEngine](https://github.com/SDmodding/TheoryEngine), which is essentially re-implementation of the game engine.
   - The [ModelScriber](https://github.com/SDmodding/ModelScriber) is based on it and could be useful to understand how the file structure even works in general.
