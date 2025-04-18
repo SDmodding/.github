@@ -15,6 +15,7 @@ If you're interested in modding the game yourself, we provide enough repositorie
     - [BIG Unpacker](https://mega.nz/file/CeJhwIaZ#gL0Byx7utvwSNVdVdn49319_2RPu-5_PzkL4_F_xPDY)
     - [Ultimate Texture Tool](https://github.com/sneakyevil/SD-UltimateTexTool)
     - [ModelScriber](https://github.com/SDmodding/ModelScriber)
+    - [True Crowd DataBase Converter](https://github.com/SDmodding/TCDatabaseConv)
 - Writing own plugins/mods:
   - You will need to have knowledge of C/C++ and take some time to understand how the game engine works.
   - We provide repository that is essentially [SDK "dev-kit"](https://github.com/SDmodding/SDK) for the game itself.
