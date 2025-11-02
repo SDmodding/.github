@@ -5,6 +5,11 @@ This GitHub organization is based around modding - [Sleeping Dogs: Definitive Ed
 > - Compatibility game executable: [sdhdship.exe (Steam)](https://mega.nz/file/fK5SWARD#1fAWkxAHaKCIMDaJ5XAQKvjs6gK4RCQo5ZlvvtHWtVw)
 > - Non-Steam Patch (GOG Version): [SteamAPI Offline](https://github.com/SDmodding/SteamAPI_Offline/releases/latest/download/Release.rar)
 > - Debug Symbols (PDB): [Download](https://mega.nz/file/aThlWBSB#7hG3yh6G5hUjX2Dy-1Kqjqwq9gSAREJJeWqyeS1K_m8)
+> - Debug/Fast Boot game executable: [sdhdship_debug.exe](https://mega.nz/file/baRj0YSa#YJkW779PBNv6ALetThazisFoe9-PyHaH8xe0GOoJI4Y)
+>   - This is modification of the original game executable.
+>   - It has separate folder for game saves/settings called "dbg".
+>   - It will instantly boot the game instead going to main menu, which allows easier modding testing, etc...
+>   - **To fix sound you will need to open pause menu once, controller might not work (requires alt tabbing out of the game once)**
 
 ## Modding
 If you're interested in modding the game yourself, we provide enough repositories at this organization that will give you enough information to do mods by yourself.
