@@ -23,7 +23,7 @@ If you're interested in modding the game yourself, we provide enough repositorie
     - [Perm To FBX](https://github.com/SDmodding/PermToFBX)
     - [True Crowd DataBase Converter](https://github.com/SDmodding/TCDatabaseConv)
     - [Big File System (Unpacker Only)](https://github.com/SDmodding/BigFileSystem)
-    - [Shader Scriber](https://github.com/SDmodding/ShaderScriber)
+    - [ShaderBin](https://github.com/SDmodding/ShaderBin)
 - Writing own plugins/mods:
   - You will need to have knowledge of C/C++ and take some time to understand how the game engine works.
   - We provide repository that is essentially [SDK "dev-kit"](https://github.com/SDmodding/SDK) for the game itself.
