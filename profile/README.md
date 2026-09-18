@@ -17,6 +17,7 @@ If you're interested in modding the game yourself, we provide enough repositorie
 - Modifying game files:
   - **This is still kind of tedious thing to do since there are not an appropriate tools to handle this easily so bare in mind while trying to do anything.** 
   - Here is list of tools:
+    - [Big File Explorer](https://github.com/sneakyevil/SD-BigFileExplorer)
     - [BIG Unpacker](https://mega.nz/file/CeJhwIaZ#gL0Byx7utvwSNVdVdn49319_2RPu-5_PzkL4_F_xPDY)
     - [Ultimate Texture Tool](https://github.com/sneakyevil/SD-UltimateTexTool)
     - [Model Scriber](https://github.com/SDmodding/ModelScriber)
