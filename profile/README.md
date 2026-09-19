@@ -11,6 +11,22 @@ This GitHub organization is based around modding - [Sleeping Dogs: Definitive Ed
 >   - It will instantly boot the game instead going to main menu, which allows easier modding testing, etc...
 >   - **To fix sound you will need to open pause menu once, controller might not work (requires alt tabbing out of the game once)**
 
+## Development Status
+
+> [!IMPORTANT]
+> Public development of the SDK and Theory Engine is currently paused.
+> 
+> Existing work will remain available, but future development and new projects, particularly projects built around or dependent on the SDK and Theory Engine, will generally remain private.
+> 
+> This decision is largely a result of how the work has been used and maintained over time.
+> A significant amount of the work in this organization has been created and maintained primarily by a single person, while receiving relatively little contribution or attribution in return.
+> 
+> I've also become increasingly uncomfortable with the way AI is being used within the modding community. I don't have an issue with AI being used as a tool, but one of the original purposes of the SDK was to help people understand how the underlying systems work, learn through reverse engineering, and build things themselves.
+> 
+> When that work is instead treated as something to be consumed or reproduced without understanding, contribution, or proper credit, it takes away much of the motivation behind maintaining it publicly.
+> 
+> For that reason, I'm stepping back from public development for the time being. The existing repositories and work are still available, but I don't intend to continue making future foundational work or projects publicly available in the same way.
+
 ## Modding
 If you're interested in modding the game yourself, we provide enough repositories at this organization that will give you enough information to do mods by yourself.
 
